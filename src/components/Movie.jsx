@@ -20,7 +20,7 @@ const Movie = ({item}) => {
         savedShows: arrayUnion({
           id: item.id,
           title: item.title,
-          img: item.backdrop_path
+          img: item.backdrop_path,
         })
       })
     } else {
